@@ -58,10 +58,10 @@ Starting from the raw 1,500-row, 19-column export, the cleaning pass:
  
 **Return rate (24.8%) is the most actionable number in the dataset.** Nearly 1 in 4 orders is returned. Chairs (28.2%) and Laptops (27.4%) run above average; Desks (21.7%) and Printers (22.3%) run below. If this were a live business, this would be the first place to investigate — e.g., quality issues, sizing/fit problems for furniture, or return-policy abuse — since a 3–5 point reduction in return rate would have a direct, quantifiable revenue impact.
  
-## 🛠️ Tools Used
+## 🛠️ Tool Used
  
 - Microsoft Excel — data cleaning, formulas (SUMIFS, AVERAGEIFS), and PivotTables
-- Python (pandas, matplotlib) — used only to generate the chart images in this README for the GitHub/LinkedIn write-up; all underlying analysis lives in the Excel workbook
+
 ## 🚀 About This Project
  
 This is my first end-to-end data analysis project, built to practice structuring a messy dataset in Excel — cleaning it, building calculated fields, and summarizing it with PivotTables — and to practice communicating the results in writing. Dashboards/visual reporting (Excel dashboard or Power BI) are a planned next step.
