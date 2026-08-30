@@ -39,12 +39,18 @@ Starting from the raw 1,500-row, 19-column export, the cleaning pass:
 ## 🔍 Insights
  
 **Regional performance is close, with North slightly ahead.** North generated the most net sales ($967,958), about 17% ahead of the lowest-performing region, South ($827,768). East, West, and Central are clustered tightly together ($847K–$884K), so region isn't a strong differentiator in this dataset — no single region dominates.
- 
+
+<img width="1325" height="805" alt="preview" src="https://github.com/user-attachments/assets/ecaa67e8-6b1a-4064-bc8c-40c577eb2180" />
+
 **Laptops, Tablets, and Printers are the top revenue products — but Chairs have the worst return rate.** Laptops ($684,417), Tablets ($684,539), and Printers ($684,387) are essentially tied at the top, while Phones trail at $497,163 (partly because Phones also carry the lowest average discount amount and unit price). Looking at *returns* rather than revenue, Chairs stand out with a 28.2% return rate — well above the 24.8% overall average and the highest of any product.
- 
+
+<img width="1324" height="805" alt="preview (2)" src="https://github.com/user-attachments/assets/0573f65c-df49-4fbe-8bfc-859ad6c70d09" />
+
 **Online payment is the leading channel, but the five payment methods are fairly balanced.** Online transactions bring in the most net sales ($971,115 across 323 orders), narrowly ahead of Cash ($950,388). Debit Card is the smallest channel at $770,421. No payment method is negligible — all five sit within roughly 20% of each other.
  
 **Monthly sales are volatile with no clear trend.** Net sales swing widely month to month (from a low of ~$79K in October 2023 to a high of ~$208K in March 2023) with no consistent upward or downward trajectory across the 2.5-year window. This is consistent with the dataset being randomly generated rather than reflecting a real seasonal retail business.
+
+<img width="1568" height="702" alt="preview (1)" src="https://github.com/user-attachments/assets/e409ed4c-5f72-4ece-b660-d9a7fc5bcda5" />
  
 **Retail and Wholesale customers contribute almost identically.** Retail ($2,195,526) and Wholesale ($2,184,467) split total revenue nearly 50/50, so customer type isn't a meaningful lever for prioritization in this dataset.
  
