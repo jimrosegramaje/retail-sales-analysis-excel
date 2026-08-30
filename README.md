@@ -44,10 +44,12 @@ Starting from the raw 1,500-row, 19-column export, the cleaning pass:
 
 **Laptops, Tablets, and Printers are the top revenue products — but Chairs have the worst return rate.** Laptops ($684,417), Tablets ($684,539), and Printers ($684,387) are essentially tied at the top, while Phones trail at $497,163 (partly because Phones also carry the lowest average discount amount and unit price). Looking at *returns* rather than revenue, Chairs stand out with a 28.2% return rate — well above the 24.8% overall average and the highest of any product.
 
-<img width="1324" height="805" alt="preview (2)" src="https://github.com/user-attachments/assets/0573f65c-df49-4fbe-8bfc-859ad6c70d09" />
+<img width="1325" height="805" alt="product_net_sales" src="https://github.com/user-attachments/assets/be3e42af-3fa7-4b89-aef2-b13e7efdc533" />
 
 **Online payment is the leading channel, but the five payment methods are fairly balanced.** Online transactions bring in the most net sales ($971,115 across 323 orders), narrowly ahead of Cash ($950,388). Debit Card is the smallest channel at $770,421. No payment method is negligible — all five sit within roughly 20% of each other.
- 
+
+<img width="1326" height="730" alt="payment_method" src="https://github.com/user-attachments/assets/8ba6aa6e-b382-4f8c-8b25-ade2291b272e" />
+
 **Monthly sales are volatile with no clear trend.** Net sales swing widely month to month (from a low of ~$79K in October 2023 to a high of ~$208K in March 2023) with no consistent upward or downward trajectory across the 2.5-year window. This is consistent with the dataset being randomly generated rather than reflecting a real seasonal retail business.
 
 <img width="1568" height="702" alt="preview (1)" src="https://github.com/user-attachments/assets/e409ed4c-5f72-4ece-b660-d9a7fc5bcda5" />
@@ -57,7 +59,9 @@ Starting from the raw 1,500-row, 19-column export, the cleaning pass:
 **Promotions have little measurable effect on order value.** Average order value is nearly flat whether a customer used FREESHIP ($2,955), SAVE10 ($2,928), WINTER15 ($2,890), or no promotion at all ($2,903) — a ~2% spread. In a real dataset this would be worth flagging to a marketing team, since it suggests these promo codes aren't driving meaningfully larger baskets.
  
 **Return rate (24.8%) is the most actionable number in the dataset.** Nearly 1 in 4 orders is returned. Chairs (28.2%) and Laptops (27.4%) run above average; Desks (21.7%) and Printers (22.3%) run below. If this were a live business, this would be the first place to investigate — e.g., quality issues, sizing/fit problems for furniture, or return-policy abuse — since a 3–5 point reduction in return rate would have a direct, quantifiable revenue impact.
- 
+
+<img width="1324" height="805" alt="returns_by_product" src="https://github.com/user-attachments/assets/c3b6c4bf-dd95-4599-a826-b80658f67bef" />
+
 ## 🛠️ Tool Used
  
 - Microsoft Excel — data cleaning, formulas (SUMIFS, AVERAGEIFS), and PivotTables
